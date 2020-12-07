@@ -72,7 +72,7 @@
           echo nl2br("<h1>Result: </h1><h3>$flames[$flameNumberEquivalent]</h3>\n");
        
           if (strlen($commonLetters) < 1) {
-            echo nl2br("They have no common letters\n");
+            echo nl2br("They have no common letters!\n");
           } elseif (strlen($commonLetters) === 1) {
             echo nl2br("Their common letter is  " . implode(", ", $commonLettersSplit) . " \n");
             echo nl2br($_POST["yourName"] . " has " . $commonLetterCount1 . " common letter , " . $_POST["crushName"] . " has " . $commonLetterCount2 . " common letter\n");
