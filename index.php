@@ -88,7 +88,7 @@
         }
 
         else {
-          echo "<h1>Result: </h1>";
+          echo "<h1>KENNETH QUILANTANG!: </h1>";
         }
         ?>
 
